@@ -1,4 +1,5 @@
 CAN-Based Vehicle Safety & Monitoring System
+
 ➤ This project implements a CAN-Based Vehicle Safety and Monitoring System using LPC2129 ARM7 microcontrollers and MCP2551 CAN transceivers.
 ➤ The system is designed to improve vehicle safety by monitoring engine temperature, controlling vehicle indicators, and detecting reverse obstacles using CAN communication.
 ➤ The complete system is divided into three different nodes:

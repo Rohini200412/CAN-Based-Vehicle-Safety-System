@@ -13,7 +13,9 @@ CAN-Based Vehicle Safety & Monitoring System
 → Reverse Alert Node
 
 ➤ All the nodes communicate using CAN protocol.
+
 ━━━━━━━━━━━━━━━━━━━━━━
+
 MAIN CONTROL NODE
 
 ➤ The Main Control Node continuously reads engine temperature using the DS18B20 temperature sensor.
@@ -33,6 +35,7 @@ MAIN CONTROL NODE
 ➤ If an obstacle is detected near the vehicle, an alert indication is provided using an LED.
 
 ━━━━━━━━━━━━━━━━━━━━━━
+
 INDICATOR NODE
 
 ➤ The Indicator Node continuously receives CAN messages from the Main Node.
@@ -49,7 +52,9 @@ REVERSE ALERT NODE
 ➤ The measured distance is transmitted to the Main Node using CAN communication.
 
 ➤ An alert LED is activated whenever the obstacle distance is below the safety limit.
+
 ━━━━━━━━━━━━━━━━━━━━━━
+
 HARDWARE COMPONENTS USED
 
 → LPC2129 ARM7 Microcontroller
@@ -67,6 +72,7 @@ HARDWARE COMPONENTS USED
 → Push Buttons
 
 ━━━━━━━━━━━━━━━━━━━━━━
+
 SOFTWARE USED
 
 → Embedded C
@@ -74,7 +80,9 @@ SOFTWARE USED
 → Keil uVision
 
 → Flash Magic
+
 ━━━━━━━━━━━━━━━━━━━━━━
+
 PIN CONNECTIONS
 
 MAIN CONTROL NODE
@@ -96,7 +104,9 @@ MAIN CONTROL NODE
 → P0.24          → CAN TX
 
 → P0.25          → CAN RX
+
 ━━━━━━━━━━━━━━━━━━━━━━
+
 INDICATOR NODE
 
 → P0.8 to P0.15  → Indicator LEDs
@@ -104,7 +114,9 @@ INDICATOR NODE
 → P0.24          → CAN TX
 
 → P0.25          → CAN RX
+
 ━━━━━━━━━━━━━━━━━━━━━━
+
 REVERSE ALERT NODE
 
 → P0.21          → Ultrasonic Trigger Pin
@@ -116,7 +128,9 @@ REVERSE ALERT NODE
 → P0.24          → CAN TX
 
 → P0.25          → CAN RX
+
 ━━━━━━━━━━━━━━━━━━━━━━
+
 CAN IDs USED
 
 → 0x101 → Indicator Control Data
@@ -124,7 +138,9 @@ CAN IDs USED
 → 0x102 → Reverse Mode Data
 
 → 0x201 → Reverse Distance Data
+
 ━━━━━━━━━━━━━━━━━━━━━━
+
 FEATURES OF THE PROJECT
 
 → Real-time engine temperature monitoring
@@ -144,7 +160,9 @@ FEATURES OF THE PROJECT
 → Timeout protection for sensors and CAN communication
 
 → Non-blocking LED scrolling implementation
+
 ━━━━━━━━━━━━━━━━━━━━━━
+
 APPLICATIONS
 
 → Automotive safety systems
@@ -154,7 +172,9 @@ APPLICATIONS
 → Driver assistance systems
 
 → Embedded CAN network applications
+
 ━━━━━━━━━━━━━━━━━━━━━━
+
 CONCLUSION
 
 ➤ This project successfully demonstrates a distributed automotive embedded system using CAN protocol.

@@ -31,6 +31,7 @@ MAIN CONTROL NODE
 ➤ The received distance is displayed on the LCD.
 
 ➤ If an obstacle is detected near the vehicle, an alert indication is provided using an LED.
+
 ━━━━━━━━━━━━━━━━━━━━━━
 INDICATOR NODE
 
@@ -39,6 +40,7 @@ INDICATOR NODE
 ➤ Based on the received CAN data, left or right scrolling indicators are activated.
 
 ➤ Non-blocking scrolling logic is implemented for smooth indicator operation.
+
 ━━━━━━━━━━━━━━━━━━━━━━
 REVERSE ALERT NODE
 

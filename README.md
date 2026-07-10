@@ -45,6 +45,7 @@ INDICATOR NODE
 ➤ Non-blocking scrolling logic is implemented for smooth indicator operation.
 
 ━━━━━━━━━━━━━━━━━━━━━━
+
 REVERSE ALERT NODE
 
 ➤ The Reverse Alert Node continuously reads obstacle distance using the HC-SR04 ultrasonic sensor.

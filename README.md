@@ -43,7 +43,7 @@ User Input
 
 ## 🔄 SYSTEM WORKING FLOW
 
-![Uploading file_00000000d2c871f7976c74d4e7a9b166 (2).png…]()
+<img width="1536" height="1024" alt="file_00000000d2c871f7976c74d4e7a9b166 (2)" src="https://github.com/user-attachments/assets/09237dd3-9101-48e5-a675-b91266a8b461" />
 
 
 ## 🖥️ MAIN CONTROL NODE

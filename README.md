@@ -41,10 +41,7 @@ Indicator & Alert
 Push Buttons
 User Input
 
-## 📊 SYSTEM BLOCK DIAGRAM
-
-
-## 📊 SYSTEM BLOCK DIAGRAM
+## 🔄 SYSTEM WORKING FLOW
 
 
 ## 🖥️ MAIN CONTROL NODE
@@ -63,36 +60,56 @@ The Reverse Alert Node measures obstacle distance using the HC-SR04 ultrasonic s
 ## 🚀 FEATURES
 
 Real-time Temperature Monitoring
+
 CAN-Based Communication
+
 Three ECU Architecture
+
 Reverse Obstacle Detection
+
 Indicator Control
+
 LCD Status Display
+
 Embedded C Firmware
+
 LPC2129 ARM7 Based System
+
 Reliable Distributed Communication
 
 ## 💻 SOFTWARE USED
 
 Embedded C
+
 Keil µVision
+
 Flash Magic
+
 
 ## 🔧 Hardware Used
 
 LPC2129 ARM7
+
 MCP2551 CAN Transceiver
+
 DS18B20 Temperature Sensor
+
 HC-SR04 Ultrasonic Sensor
+
 20×4 LCD
+
 LEDs
+
 Push Buttons
+
 Power Supply
 
 ## 👩‍💻 AUTHOR
 
 Rohini
+
 Bachelor of Technology (Electronics & Communication Engineering)
+
 Embedded Firmware Engineer
 
 ## 📜 License

@@ -1,97 +1,83 @@
-CAN-Based Vehicle Safety & Monitoring System
-
-➤ This project implements a CAN-Based Vehicle Safety and Monitoring System using LPC2129 ARM7 microcontrollers and MCP2551 CAN transceivers.
-
-➤ The system is designed to improve vehicle safety by monitoring engine temperature, controlling vehicle indicators, and detecting reverse obstacles using CAN communication.
-
-➤ The complete system is divided into three different nodes:
-
-→ Main Control Node
-
-→ Indicator Node
-
-→ Reverse Alert Node
-
-➤ All the nodes communicate using CAN protocol.
-
-━━━━━━━━━━━━━━━━━━━━━━
-
-MAIN CONTROL NODE
-
-➤ The Main Control Node continuously reads engine temperature using the DS18B20 temperature sensor.
-
-➤ The measured temperature is displayed on the LCD display.
-
-➤ External interrupt switches are used for controlling left and right indicators.
-
-➤ When a switch is pressed, the Main Node sends corresponding CAN data to the Indicator Node.
-
-➤ Another switch is used for changing vehicle mode between Forward and Reverse.
-
-➤ In Reverse mode, the Main Node receives obstacle distance data from the Reverse Alert Node using CAN communication.
-
-➤ The received distance is displayed on the LCD.
-
-➤ If an obstacle is detected near the vehicle, an alert indication is provided using an LED.
-
-━━━━━━━━━━━━━━━━━━━━━━
-
-INDICATOR NODE
-
-➤ The Indicator Node continuously receives CAN messages from the Main Node.
-
-➤ Based on the received CAN data, left or right scrolling indicators are activated.
-
-➤ Non-blocking scrolling logic is implemented for smooth indicator operation.
-
-━━━━━━━━━━━━━━━━━━━━━━
-
-REVERSE ALERT NODE
-
-➤ The Reverse Alert Node continuously reads obstacle distance using the HC-SR04 ultrasonic sensor.
-
-➤ The measured distance is transmitted to the Main Node using CAN communication.
-
-➤ An alert LED is activated whenever the obstacle distance is below the safety limit.
-
-━━━━━━━━━━━━━━━━━━━━━━
-
-FEATURES OF THE PROJECT
-
-→ Real-time engine temperature monitoring
-
-→ Left and right vehicle indicator control
-
-→ Reverse obstacle detection
-
-→ CAN-based node communication
-
-→ LCD status display
-
-→ Alert indication during obstacle detection
-
-→ Fault-tolerant embedded system design
-
-→ Timeout protection for sensors and CAN communication
-
-→ Non-blocking LED scrolling implementation
-
-━━━━━━━━━━━━━━━━━━━━━━
-
-APPLICATIONS
-
-→ Automotive safety systems
-
-→ Vehicle monitoring systems
-
-→ Driver assistance systems
-
-→ Embedded CAN network applications
-
-━━━━━━━━━━━━━━━━━━━━━━
-
-CONCLUSION
-
-➤ This project successfully demonstrates a distributed automotive embedded system using CAN protocol.
-
-➤ The system provides reliable communication between multiple nodes and implements vehicle safety features such as temperature monitoring, indicator control, and reverse obstacle detection using LPC2129 microcontrollers.
+<img width="1149" height="1369" alt="file_000000000870722fb7d2be2e5fa914d3" src="https://github.com/user-attachments/assets/23184af3-59bc-49ec-b21e-3cb5212e897f" >🚗 CAN-Based Vehicle Safety & Monitoring System 
+⭐ Overview
+This project implements a CAN-Based Vehicle Safety & Monitoring System using LPC2129 ARM7 microcontrollers. The system is designed with three independent nodes (ECUs) connected through the CAN Bus to enable reliable real-time communication.
+The Main Control Node monitors engine temperature using the DS18B20 sensor, displays the information on the LCD, and controls the vehicle indicators through CAN communication. The Reverse Alert Node continuously measures obstacle distance using the HC-SR04 ultrasonic sensor and transmits the data to the Main Node. If an obstacle is detected within the safety limit, the system alerts the driver.
+This project demonstrates a modular embedded system architecture with reliable inter-node communication suitable for real-time vehicle monitoring applications.
+🏗️ Complete System Architecture
+(Image)
+🎯 Project Objectives
+Monitor engine temperature in real time.
+Display temperature and system status on the LCD.
+Control left and right indicators using CAN communication.
+Detect reverse obstacles using an ultrasonic sensor.
+Alert the driver when an obstacle is detected.
+Demonstrate reliable communication between multiple ECUs using the CAN protocol.
+Build a scalable and modular embedded system.
+🔌 Hardware Components
+Component
+Purpose
+LPC2129 ARM7
+Main Controller
+MCP2551
+CAN Transceiver
+DS18B20
+Temperature Monitoring
+HC-SR04
+Obstacle Detection
+20×4 LCD
+Display
+LEDs
+Indicator & Alert
+Push Buttons
+User Input
+🖥️ System Block Diagram
+(Image)
+🔄 System Working Flow
+(Flowchart Image)
+🖥️ Main Control Node
+The Main Control Node acts as the central controller of the system. It reads engine temperature from the DS18B20 sensor, displays the temperature on the LCD, monitors user switches, transmits CAN messages to the Indicator Node, and receives obstacle distance information from the Reverse Alert Node.
+(Image)
+💡 Indicator Node
+The Indicator Node continuously receives CAN messages from the Main Control Node. According to the received message, it controls the left or right indicator LEDs, demonstrating reliable real-time CAN communication.
+(Image)
+📡 Reverse Alert Node
+The Reverse Alert Node measures obstacle distance using the HC-SR04 ultrasonic sensor. The measured distance is transmitted to the Main Control Node through the CAN Bus. Whenever the distance falls below the predefined safety limit, an alert LED is activated.
+(Image)
+🚀 Features
+Real-time Temperature Monitoring
+CAN-Based Communication
+Three ECU Architecture
+Reverse Obstacle Detection
+Indicator Control
+LCD Status Display
+Embedded C Firmware
+LPC2129 ARM7 Based System
+Reliable Distributed Communication
+💻 Software Used
+Embedded C
+Keil µVision
+Flash Magic
+🔧 Hardware Used
+LPC2129 ARM7
+MCP2551 CAN Transceiver
+DS18B20 Temperature Sensor
+HC-SR04 Ultrasonic Sensor
+20×4 LCD
+LEDs
+Push Buttons
+Power Supply
+📷 Project Gallery
+Complete Hardware Setup
+Main Control Node
+Indicator Node
+Reverse Alert Node
+LCD Output
+CAN Communication
+Working Demo
+👩‍💻 Author
+Rohini
+Bachelor of Technology (Electronics & Communication Engineering)
+Embedded Firmware Engineer
+📜 License
+This project is intended for educational and academic purposes. Feel free to learn from, modify, and improve this project for non-commercial use.
+🙏 Thank You

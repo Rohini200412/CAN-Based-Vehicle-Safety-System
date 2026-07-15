@@ -44,6 +44,11 @@ User Input
 ## 🔄 SYSTEM WORKING FLOW
 
 
+
+
+
+
+
 ## 🖥️ MAIN CONTROL NODE
 
 The Main Control Node acts as the central controller of the system. It reads engine temperature from the DS18B20 sensor, displays the temperature on the LCD, monitors user switches, transmits CAN messages to the Indicator Node, and receives obstacle distance information from the Reverse Alert Node.

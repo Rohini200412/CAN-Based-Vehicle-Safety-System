@@ -1,4 +1,4 @@
-🚗 CAN-Based Vehicle Safety & Monitoring System 
+🚗 CAN-Based Vehicle Safety & Monitoring System using LPC2129 ARM7
 <img width="1149" height="1369" alt="file_000000000870722fb7d2be2e5fa914d3" src="https://github.com/user-attachments/assets/23184af3-59bc-49ec-b21e-3cb5212e897f" >
 
 ⭐ Overview

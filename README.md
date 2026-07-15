@@ -1,5 +1,8 @@
-<img width="1149" height="1369" alt="file_000000000870722fb7d2be2e5fa914d3" src="https://github.com/user-attachments/assets/23184af3-59bc-49ec-b21e-3cb5212e897f" >🚗 CAN-Based Vehicle Safety & Monitoring System 
+🚗 CAN-Based Vehicle Safety & Monitoring System 
+<img width="1149" height="1369" alt="file_000000000870722fb7d2be2e5fa914d3" src="https://github.com/user-attachments/assets/23184af3-59bc-49ec-b21e-3cb5212e897f" >
+
 ⭐ Overview
+
 This project implements a CAN-Based Vehicle Safety & Monitoring System using LPC2129 ARM7 microcontrollers. The system is designed with three independent nodes (ECUs) connected through the CAN Bus to enable reliable real-time communication.
 The Main Control Node monitors engine temperature using the DS18B20 sensor, displays the information on the LCD, and controls the vehicle indicators through CAN communication. The Reverse Alert Node continuously measures obstacle distance using the HC-SR04 ultrasonic sensor and transmits the data to the Main Node. If an obstacle is detected within the safety limit, the system alerts the driver.
 This project demonstrates a modular embedded system architecture with reliable inter-node communication suitable for real-time vehicle monitoring applications.

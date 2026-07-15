@@ -43,10 +43,7 @@ User Input
 
 ## 🔄 SYSTEM WORKING FLOW
 
-
-
-
-
+![Uploading file_00000000d2c871f7976c74d4e7a9b166 (2).png…]()
 
 
 ## 🖥️ MAIN CONTROL NODE

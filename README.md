@@ -1,4 +1,4 @@
-🚗 CAN-BASED VEHICLE SAFETY & MONITORING SYSTEM USING LPC2129 ARM7
+##🚗 CAN-BASED VEHICLE SAFETY & MONITORING SYSTEM USING LPC2129 ARM7
 <img width="1149" height="1369" alt="file_000000000870722fb7d2be2e5fa914d3" src="https://github.com/user-attachments/assets/23184af3-59bc-49ec-b21e-3cb5212e897f" >
 
 ## ⭐ OVERVIEW
@@ -9,10 +9,10 @@ The Main Control Node monitors engine temperature using the DS18B20 sensor, disp
 
 This project demonstrates a modular embedded system architecture with reliable inter-node communication suitable for real-time vehicle monitoring applications.
 
-🏗️ COMPLETE SYSTEM ARCHITECTURE
+##🏗️ COMPLETE SYSTEM ARCHITECTURE
 
 
-🎯 PROJECT OBJECTIVES
+##🎯 PROJECT OBJECTIVES
 
 Monitor engine temperature in real time.
 Display temperature and system status on the LCD.
@@ -22,7 +22,7 @@ Alert the driver when an obstacle is detected.
 Demonstrate reliable communication between multiple ECUs using the CAN protocol.
 Build a scalable and modular embedded system.
 
-🧩 HARDWARE COMPONENTS
+##🧩 HARDWARE COMPONENTS
 
 Component
 Purpose
@@ -41,23 +41,27 @@ Indicator & Alert
 Push Buttons
 User Input
 
-🖥️ SYSTEM BLOCK DIAGRAM
+##🖥️ SYSTEM BLOCK DIAGRAM
 (Image)
 
-🔄 System Working Flow
+##🔄 System Working Flow
 (Flowchart Image)
 
-🖥️ Main Control Node
+##🖥️ Main Control Node
+
 The Main Control Node acts as the central controller of the system. It reads engine temperature from the DS18B20 sensor, displays the temperature on the LCD, monitors user switches, transmits CAN messages to the Indicator Node, and receives obstacle distance information from the Reverse Alert Node.
 
-💡 Indicator Node
+##💡 Indicator Node
+
 The Indicator Node continuously receives CAN messages from the Main Control Node. According to the received message, it controls the left or right indicator LEDs, demonstrating reliable real-time CAN communication.
-(Ima
-📡 Reverse Alert Node
+
+##📡 Reverse Alert Node
+
 The Reverse Alert Node measures obstacle distance using the HC-SR04 ultrasonic sensor. The measured distance is transmitted to the Main Control Node through the CAN Bus. Whenever the distance falls below the predefined safety limit, an alert LED is activated.
 
 
-🚀 FEATURES
+##🚀 FEATURES
+
 Real-time Temperature Monitoring
 CAN-Based Communication
 Three ECU Architecture
@@ -68,12 +72,14 @@ Embedded C Firmware
 LPC2129 ARM7 Based System
 Reliable Distributed Communication
 
-💻 SOFTWARE USED
+##💻 SOFTWARE USED
+
 Embedded C
 Keil µVision
 Flash Magic
 
-🔧 Hardware Used
+##🔧 Hardware Used
+
 LPC2129 ARM7
 MCP2551 CAN Transceiver
 DS18B20 Temperature Sensor
@@ -83,12 +89,13 @@ LEDs
 Push Buttons
 Power Supply
 
-👩‍💻 AUTHOR
+##👩‍💻 AUTHOR
+
 Rohini
 Bachelor of Technology (Electronics & Communication Engineering)
 Embedded Firmware Engineer
 
-📄 LICENSE
+##📜 License
 This project is intended for educational and academic purposes. Feel free to learn from, modify, and improve this project for non-commercial use.
 
-🙏 THANK YOU
+##🙏 THANK YOU

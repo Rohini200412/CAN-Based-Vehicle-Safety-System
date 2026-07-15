@@ -4,11 +4,16 @@
 ⭐ Overview
 
 This project implements a CAN-Based Vehicle Safety & Monitoring System using LPC2129 ARM7 microcontrollers. The system is designed with three independent nodes (ECUs) connected through the CAN Bus to enable reliable real-time communication.
+
 The Main Control Node monitors engine temperature using the DS18B20 sensor, displays the information on the LCD, and controls the vehicle indicators through CAN communication. The Reverse Alert Node continuously measures obstacle distance using the HC-SR04 ultrasonic sensor and transmits the data to the Main Node. If an obstacle is detected within the safety limit, the system alerts the driver.
+
 This project demonstrates a modular embedded system architecture with reliable inter-node communication suitable for real-time vehicle monitoring applications.
+
 🏗️ Complete System Architecture
 (Image)
+
 🎯 Project Objectives
+
 Monitor engine temperature in real time.
 Display temperature and system status on the LCD.
 Control left and right indicators using CAN communication.
@@ -16,7 +21,9 @@ Detect reverse obstacles using an ultrasonic sensor.
 Alert the driver when an obstacle is detected.
 Demonstrate reliable communication between multiple ECUs using the CAN protocol.
 Build a scalable and modular embedded system.
+
 🔌 Hardware Components
+
 Component
 Purpose
 LPC2129 ARM7

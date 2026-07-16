@@ -11,7 +11,6 @@ This project demonstrates a modular embedded system architecture with reliable i
 
 ## 🏗️ COMPLETE SYSTEM ARCHITECTURE
 
-![Uploading file_0000000000f07207be0fc0d7763e23d7.png…]()
 
 
 ## 🎯 PROJECT OBJECTIVES
